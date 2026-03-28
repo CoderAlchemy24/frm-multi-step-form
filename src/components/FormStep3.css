@@ -1,0 +1,166 @@
+ .form-step-3{
+ 
+    width:450px;
+     min-height: 568px;
+     margin:32px auto;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+ }
+
+ .form-step-3 .form{
+    width: 450px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+     flex: 1;
+ }
+
+.form-step-3 .title{
+        font-size: 32px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        color: var(--gray-950);
+    }
+
+
+.form-step-3 .description{
+    color: var(--grey-500);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.form-step-3 ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+.form-step-3 ul li{
+    width: 100%;
+    height: 81px;
+    list-style-type: none;
+    color: var(--blue-700);
+    display:flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    border: 2px solid var(--purple-200);
+    border-radius: 8px;
+}
+
+.form-step-3 ul li input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin: auto;}
+
+.form-step-3 ul li input[type="checkbox"]:hover{
+    cursor: pointer;
+    
+}
+
+.form-step-3 ul li:hover {
+    border: 2px solid var(--blue-700);
+    border-radius: 8px;
+}
+
+.form-step-3 ul li.selected {
+    border: 2px solid var(--blue-700);
+    border-radius: 8px;
+    outline: none;
+}
+
+.li .texts{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--grey-950);
+}
+
+.li .texts span{
+    color: var(--blue-400);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form-step-3 .price{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--blue-700);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-step-3 .btns{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.form-step-3 .back{
+    padding: 16px 0;
+    margin: 24px 0 0;
+    color: var(--grey-50);
+    font-family:'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    color: var(--blue-700);
+    border: none;
+}
+
+.form-step-3 .btn-next{
+    padding: 16px 24px;
+    background-color: var(--blue-950);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 24px 0 0;
+
+}
+
+@media screen and (max-width: 768px){
+    .form-step-3{
+        width: calc(100% - 64px);
+        height: 545px;
+        background-color: white;
+        margin: 0 auto;
+        position: relative;
+        top: -80px;
+        border-radius: 16px;
+        padding: 24px 16px;
+        z-index: 3}
+
+    .form-step-3 .form {
+     width: 90%;
+    }
+
+    .form-step-3 .btns{
+        width: 90%;
+        position: relative;
+        bottom: 16px;
+        right: 0px;
+
+    }
+    }

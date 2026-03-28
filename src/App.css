@@ -1,0 +1,40 @@
+.app{
+   margin: 80px calc(50% - 450px); 
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--blue-100);
+  border-radius: 16px;;
+}
+
+
+@media screen and (max-width: 1040px){
+    .app {
+      width:100%;
+        flex-direction: row;
+        margin: 80px auto;
+        gap: auto;
+      }
+  
+}
+
+@media screen and (max-width: 768px){
+    .app {
+      display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0px auto 24px;
+        gap: 0;
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        background-color: var(--blue-100);
+      }
+
+   
+}

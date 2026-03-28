@@ -1,0 +1,167 @@
+.form-step-1{
+    width:450px;
+    margin:32px auto;
+    min-height: 568px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-step-1 .form{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1;
+   
+    
+}
+
+.form-step-1 .title{
+        font-size: 32px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        color: var(--gray-950);
+    }
+
+.form-step-1 .description{
+    color: var(--grey-500);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.form-step-1 .labels{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.form-step-1 .label{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: var(--gray-700);
+   
+}
+
+.form-step-1 .error-label{
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: var(--red-500);
+    text-align: right;
+    margin-left: auto;
+    display: none;
+}
+
+.form-step-1 .error-label.active{
+    display: block;
+}
+
+.form-step-1 .input{
+    width: 100%;
+    height:48px;
+    border: 1px solid var(--purple-200);
+    border-radius: 8px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;;
+    color: var(--gray-700);
+}
+
+.form-step-1 .input:focus{
+    outline: none;
+    border: 1px solid var(--purple-600);
+    
+}
+
+.form-step-1 .input.active,
+.form-step-1 .input.active:focus{
+    border: 1px solid var(--red-500);
+}
+
+
+
+.form-step-1 .btns{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    background-color: transparent;
+}
+
+.form-step-1 .btn-next{
+    padding: 16px 24px;
+    background-color: var(--blue-950);
+    color: white;
+    border:none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    margin: 24px 0 0;
+
+}
+
+@media screen and (max-width: 1024px){
+   
+    .form-step-1{
+        width: 348px;
+        height: 557px;
+        margin: 40px auto;
+    }
+
+    .form-step-1 .form{
+        width:100%;
+    }
+    .form-step-1 input {
+        width: 100%;
+       
+      }
+  
+}
+
+@media screen and (max-width: 768px){
+    .form-step-1{
+        width: calc(100% - 64px);
+        height: 545px;
+        background-color: white;
+        margin: -80px auto;
+        position: relative;
+       
+        border-radius: 16px;
+        padding: 24px 16px;
+        z-index: 3;
+
+        
+    }
+
+
+    .form-step-1 .form{
+        width:90%;
+        height:455px;
+        
+    }
+
+    .form-step-1 .title, 
+    .form-step-1 .description{
+        width:90%;
+        
+    }
+    .form-step-1 input {
+        width: 90%;
+       
+      }
+    .form-step-1 .btns{
+        margin: 40px 0 0;
+    }
+}
