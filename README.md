@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/CoderAlchemy24/frm-multi-step-form.git](https://github.com/CoderAlchemy24/frm-multi-step-form.git)
+- Live Site URL: [https://leafy-unicorn-72eaf2.netlify.app/](https://leafy-unicorn-72eaf2.netlify.app/)
 
 ## My process
 
