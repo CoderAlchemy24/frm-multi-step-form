@@ -10,7 +10,6 @@ This is a solution to the [Multi-step form challenge on Frontend Mentor](https:/
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 
 
@@ -45,11 +44,6 @@ Users should be able to:
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
-
-
-### AI Collaboration
-
-I used GitHub Copilot for completing code and finding bugs
 
 
 ## Author
